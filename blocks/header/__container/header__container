@@ -1,13 +1,10 @@
-.logo {
-  margin: 0 auto;
+.header__container {
   height: 70px;
   width: 270px;
-  display: flex;
-  justify-content: center;
 }
 
 @media screen and (max-width: 400px) {
-  .logo {
+  .header__container {
     height: 51.85px;
     width: 200px;
   }

@@ -1,0 +1,20 @@
+.cover__img {
+  width: 100%;
+  max-width: 984px;
+  min-width: 320px;
+  padding-top: 64px;
+}
+
+@media screen and (max-width: 800px) {
+  .cover__img {
+    padding-top: 69px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .cover__img {
+    padding-top: 40px;
+    width: 100%;
+  }
+}
