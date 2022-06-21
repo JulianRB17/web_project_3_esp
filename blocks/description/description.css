@@ -1,0 +1,7 @@
+.description {
+  display: flex;
+  flex-direction: column;
+  max-width: 1017px;
+  padding-top: 92px;
+  color: #ffffff;
+}
