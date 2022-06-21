@@ -12,9 +12,14 @@
   background: none;
 }
 
+@media screen and (max-width: 700px) {
+  .description__quote {
+    margin: 0;
+  }
+}
+
 @media screen and (max-width: 400px) {
   .description__quote {
     line-height: 30px;
-    margin: 0;
   }
 }
