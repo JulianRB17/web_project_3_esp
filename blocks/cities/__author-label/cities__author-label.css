@@ -1,0 +1,6 @@
+.cities__author-label {
+  grid-area: title;
+  grid-column-start: 2;
+  grid-row-start: 1;
+  margin: auto auto 0 0;
+}

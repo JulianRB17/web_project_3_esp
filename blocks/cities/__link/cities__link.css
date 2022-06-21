@@ -1,0 +1,6 @@
+.cities__link {
+  grid-area: link;
+  width: 355px;
+  height: 48px;
+  background-color: #0278fe;
+}

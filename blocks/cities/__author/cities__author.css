@@ -1,0 +1,5 @@
+.cities__author {
+  grid-area: title;
+  background: none;
+  grid-column-start: 2;
+}
