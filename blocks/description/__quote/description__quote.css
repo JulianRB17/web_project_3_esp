@@ -3,6 +3,18 @@
   line-height: 34px;
   font-weight: 400;
   max-width: 722px;
-  padding-right: auto;
+  margin: 0 0 -24px;
+}
+
+.description__quote_author {
   margin: 0;
+  text-align: end;
+  background: none;
+}
+
+@media screen and (max-width: 400px) {
+  .description__quote {
+    line-height: 30px;
+    margin: 0;
+  }
 }
