@@ -2,11 +2,22 @@
   font-size: 96px;
   line-height: 100px;
   max-width: 793px;
+  margin: 0;
+}
+
+@media screen and (max-width: 800px) {
+  .cover__title {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
 }
 
 @media screen and (max-width: 400px) {
   .cover__title {
     font-size: 40px;
     line-height: 44px;
+    max-width: 288px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }

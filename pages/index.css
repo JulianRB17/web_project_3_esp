@@ -9,4 +9,6 @@
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 @import url(../blocks/cover/__img/cover__img.css);
 @import url(../blocks/description/description.css);
+@import url(../blocks/description/__container/description__container.css);
 @import url(../blocks/description/__title/description__title.css);
+@import url(../blocks/description/__quote/description__quote.css);

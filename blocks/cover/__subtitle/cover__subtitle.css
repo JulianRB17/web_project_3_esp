@@ -11,13 +11,14 @@
 
 @media screen and (max-width: 800px) {
   .cover__subtitle {
-    padding: 99px 0 69px;
+    padding: 99px 24px 69px;
   }
 }
 
 @media screen and (max-width: 400px) {
   .cover__subtitle {
     font-size: 16px;
-    padding: 60px 0 40px;
+    line-height: 20px;
+    padding: 60px 16px 40px;
   }
 }

@@ -1,4 +1,12 @@
 .description__title {
   font-size: 54px;
   line-height: 58px;
+  padding-bottom: 40px;
+}
+
+@media screen and (max-width: 400px) {
+  .description__title {
+    font-size: 32px;
+    line-height: 35px;
+  }
 }
