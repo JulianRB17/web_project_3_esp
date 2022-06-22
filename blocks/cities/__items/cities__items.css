@@ -1,12 +1,21 @@
 .cities__items {
   display: grid;
-  grid-template-columns: repeat(2, 50%);
+  grid-template-columns: 47% 49%;
+  /*grid-template-rows: auto auto minmax(0, 1fr) minmax(0, 1fr);*/
   grid-template-areas:
+    "title title"
     "title title"
     "img text"
     "link text";
   column-gap: 40px;
   margin: 0;
   padding-bottom: 90px;
-  grid-template-rows: max-content;
+  border: 1px solid red;
+}
+
+@media screen and (max-width: 630px) {
+  .cities__items {
+    display: flex;
+    flex-direction: column;
+  }
 }

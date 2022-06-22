@@ -1,12 +1,20 @@
 .cities__title {
   margin: 0;
-  max-width: 700px;
+  max-width: 460px;
+  width: 100%;
   grid-area: title;
   text-align: start;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.cities__title_large {
+  max-width: 700px;
 }
 
 @media screen and (max-width: 800px) {
   .cities__title {
+    max-width: 340px;
     font-size: 42px;
     line-height: 46px;
   }
@@ -16,5 +24,6 @@
   .cities__title {
     font-size: 32px;
     line-height: 35px;
+    max-width: 100%;
   }
 }
