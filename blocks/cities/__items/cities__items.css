@@ -1,12 +1,12 @@
 .cities__items {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 0.5fr repeat(2, 1fr) 0.5fr;
+  grid-template-columns: repeat(2, 50%);
   grid-template-areas:
     "title title"
     "img text"
-    "img text"
-    "link .";
-  row-gap: 48px;
+    "link text";
   column-gap: 40px;
+  margin: 0;
+  padding-bottom: 90px;
+  grid-template-rows: max-content;
 }
