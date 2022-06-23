@@ -4,12 +4,12 @@
   width: 100%;
   grid-area: title;
   text-align: start;
-  grid-row-start: 1;
-  grid-row-end: 3;
 }
 
 .cities__title_large {
   max-width: 700px;
+  -ms-grid-column-span: 3;
+  grid-column-end: 3;
 }
 
 @media screen and (max-width: 800px) {
@@ -20,10 +20,13 @@
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 630px) {
   .cities__title {
+    -ms-grid-column-span: 2;
+    grid-column-end: 2;
     font-size: 32px;
     line-height: 35px;
     max-width: 100%;
+    padding: 0 16px;
   }
 }

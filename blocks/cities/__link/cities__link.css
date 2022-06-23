@@ -1,6 +1,5 @@
 .cities__link {
   grid-area: link;
-  max-width: 100%;
   min-width: max-content;
   max-width: 355px;
   max-height: 48px;
@@ -20,6 +19,7 @@
     max-width: 288px;
     font-size: 14px;
     line-height: 17px;
-    padding: 15.5px 21.5px;
+    padding: 16px 21px;
+    margin: 24px auto 0;
   }
 }

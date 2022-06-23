@@ -1,4 +1,7 @@
-.cities__container {
+.cities__author-container {
+  background: none;
+  grid-area: artist;
+  margin: auto auto 0 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -6,12 +9,10 @@
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  margin: 0;
-  padding: 0 24px;
 }
 
 @media screen and (max-width: 630px) {
-  .cities__container {
-    padding: 0;
+  .cities__author-container {
+    padding: 30px 16px;
   }
 }
