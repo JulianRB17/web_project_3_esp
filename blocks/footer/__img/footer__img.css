@@ -1,0 +1,12 @@
+.footer__img {
+  width: 100%;
+  z-index: -1;
+}
+
+.footer__img_opacity {
+  background-color: #2a2c2f;
+  z-index: 2;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}

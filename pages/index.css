@@ -14,6 +14,7 @@
 @import url(../blocks/description/__main-text/description__main-text.css);
 @import url(../blocks/grid/grid.css);
 @import url(../blocks/grid/__item/grid__item.css);
+@import url(../blocks/link/link.css);
 @import url(../blocks/cities/cities.css);
 @import url(../blocks/cities/__container/cities__container.css);
 @import url(../blocks/cities/__items/cities__items.css);
@@ -25,3 +26,8 @@
 @import url(../blocks/cities/__author/cities__author.css);
 @import url(../blocks/cities/__text-container/cities__text-container.css);
 @import url(../blocks/cities/__main-text/cities__main-text.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__container/footer__container);
+@import url(../blocks/footer/__img/footer__img.css);
+@import url(../blocks/footer/__text-container/footer__text-container.css);
+@import url(../blocks/footer/__title/footer__title.css);

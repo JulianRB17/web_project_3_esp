@@ -1,0 +1,10 @@
+.link {
+  min-width: max-content;
+  background-color: #0278fe;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 4px;
+}

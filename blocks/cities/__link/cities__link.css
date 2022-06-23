@@ -1,17 +1,10 @@
 .cities__link {
   grid-area: link;
-  min-width: max-content;
   max-width: 355px;
   max-height: 48px;
-  background-color: #0278fe;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 22px;
-  color: #ffffff;
-  text-decoration: none;
   padding: 13px 20px;
-  border-radius: 4px;
   margin: 0;
+  margin-bottom: auto;
 }
 
 @media screen and (max-width: 740px) {
@@ -20,6 +13,6 @@
     font-size: 14px;
     line-height: 17px;
     padding: 16px 21px;
-    margin: 24px auto 0;
+    margin: 24px auto auto;
   }
 }
