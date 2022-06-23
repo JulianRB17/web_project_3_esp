@@ -1,0 +1,22 @@
+.footer__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  max-width: 1184px;
+  position: relative;
+  z-index: 0;
+}
+
+@media screen and (max-width: 800px) {
+  .footer__container {
+    min-height: 746px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .footer__container {
+    min-height: 254px;
+    max-height: auto;
+  }
+}

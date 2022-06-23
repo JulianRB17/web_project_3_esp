@@ -27,7 +27,10 @@
 @import url(../blocks/cities/__text-container/cities__text-container.css);
 @import url(../blocks/cities/__main-text/cities__main-text.css);
 @import url(../blocks/footer/footer.css);
-@import url(../blocks/footer/__container/footer__container);
+@import url(../blocks/footer/__container/footer__container.css);
 @import url(../blocks/footer/__img/footer__img.css);
 @import url(../blocks/footer/__text-container/footer__text-container.css);
 @import url(../blocks/footer/__title/footer__title.css);
+@import url(../blocks/footer/__text/footer__text.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__copyrigth/footer__copyright.css);

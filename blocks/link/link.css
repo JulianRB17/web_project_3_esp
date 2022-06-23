@@ -1,4 +1,6 @@
 .link {
+  min-width: -webkit-max-content;
+  min-width: -moz-max-content;
   min-width: max-content;
   background-color: #0278fe;
   font-weight: 600;

@@ -2,4 +2,13 @@
   margin: auto;
   margin-bottom: 32px;
   color: #fffdfd;
+  background: none;
+}
+
+@media screen and (max-width: 400px) {
+  .footer__title {
+    font-size: 32px;
+    line-height: 35px;
+    margin-bottom: 16px;
+  }
 }
