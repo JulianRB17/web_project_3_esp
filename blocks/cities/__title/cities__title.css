@@ -20,7 +20,7 @@
   }
 }
 
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 662px) {
   .cities__title {
     -ms-grid-column-span: 2;
     grid-column-end: 2;

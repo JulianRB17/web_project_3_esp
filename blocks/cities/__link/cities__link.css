@@ -1,10 +1,7 @@
 .cities__link {
-  grid-area: link;
-  max-width: 355px;
-  max-height: 48px;
+  width: 355px;
+  height: 48px;
   padding: 13px 20px;
-  margin: 0;
-  margin-bottom: auto;
 }
 
 @media screen and (max-width: 740px) {
@@ -14,5 +11,15 @@
     line-height: 17px;
     padding: 16px 21px;
     margin: 24px auto auto;
+  }
+}
+
+@media screen and (max-width: 662px) {
+  .cities__link {
+    position: absolute;
+    bottom: 36px;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
   }
 }

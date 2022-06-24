@@ -2,7 +2,7 @@
 @import url(../vendor/font/inter/InterWeb/inter.css);
 @import url(../blocks/vendor/body.css);
 @import url(../blocks/header/header.css);
-@import url(../blocks/logo/logo.css);
+@import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/title/title.css);
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__title/cover__title.css);
@@ -19,6 +19,7 @@
 @import url(../blocks/cities/__container/cities__container.css);
 @import url(../blocks/cities/__items/cities__items.css);
 @import url(../blocks/cities/__title/cities__title.css);
+@import url(../blocks/cities/__img-container/cities__img-container.css);
 @import url(../blocks/cities/__img/cities__img.css);
 @import url(../blocks/cities/__link/cities__link.css);
 @import url(../blocks/cities/__author-container/cities__author-container.css);

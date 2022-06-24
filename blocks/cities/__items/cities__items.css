@@ -5,8 +5,7 @@
   grid-template-columns: minmax(0, 47%) minmax(0, 49%);
   grid-template-areas:
     "title artist"
-    "img text"
-    "link text";
+    "img text";
   -webkit-column-gap: 40px;
   -moz-column-gap: 40px;
   column-gap: 40px;
@@ -14,19 +13,19 @@
   padding-bottom: 90px;
 }
 
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 662px) {
   .cities__items {
+    position: relative;
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: minmax(0, 100%);
     grid-template-columns: minmax(0, 100%);
     grid-template-areas:
       "title"
-      "title"
       "artist"
       "img"
       "text"
       "link";
-    padding-bottom: 16px;
+    padding-bottom: 84px;
   }
 }

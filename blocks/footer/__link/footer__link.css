@@ -1,5 +1,6 @@
 .footer__link {
   max-width: 198px;
   max-height: 48px;
+  align-self: center;
   padding: 13px 20px;
 }
