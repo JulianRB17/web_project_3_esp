@@ -16,3 +16,7 @@
   width: 100%;
   background: none;
 }
+
+.footer__text-container:hover {
+  cursor: url(../../../images/cursor\ black.png), auto;
+}

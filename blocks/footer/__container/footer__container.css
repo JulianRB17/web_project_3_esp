@@ -20,3 +20,8 @@
     max-height: auto;
   }
 }
+
+.footer__container:hover .footer__img_opacity {
+  opacity: 0.8;
+  cursor: url(../../../images/cursor\ black.png), auto;
+}

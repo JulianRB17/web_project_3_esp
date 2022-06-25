@@ -9,4 +9,10 @@
   color: #ffffff;
   text-decoration: none;
   border-radius: 4px;
+  transition: background-color 1s ease-out;
+}
+
+.link:hover {
+  background-color: #0063d2;
+  cursor: url(../../images/cursor-hover.png), auto;
 }
