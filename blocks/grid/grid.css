@@ -1,25 +1,14 @@
 .grid {
-  display: -ms-grid;
-  display: grid;
-  grid-gap: 16px;
-  -ms-grid-columns: 1fr 16px 1fr 16px 1fr 16px 1fr;
-  grid-template-columns: repeat(4, 1fr);
-  max-width: 1184px;
   padding: 92px 24px 0;
 }
-
 @media screen and (max-width: 800px) {
-  .grid {
-    -ms-grid-columns: 1fr 16px 1fr;
-    grid-template-columns: repeat(2, 1fr);
+  .grid__container {
     padding-top: 64px;
   }
 }
 
 @media screen and (max-width: 400px) {
-  .grid {
-    -ms-grid-columns: 1fr;
-    grid-template-columns: 1fr;
+  .grid__container {
     padding: 32px 16px 0;
   }
 }
